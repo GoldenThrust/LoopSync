@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    width: 500px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-weight: bolder;
+    font-variant: small-caps;
+    margin: 20px 0 0 0;
+}
+input, label, p{
+    margin: 20px 0;
+}
+input{
+    width: 90%;
+    height: 50px;
+    padding: 20px;
+    font-weight: bolder;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    accent-color: black;
+}
+input[type="submit"]{
+    border: 0;
+    background: purple;
+    box-shadow: 0 5px 10px grey;
+    font-weight: bolder;
+    font-size: 25px;  
+    padding: 0;
+}
+::placeholder{
+    color: black;
+}
+::-ms-input-placeholder{
+    color: black;
+}
+p a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+a{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
